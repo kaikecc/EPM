@@ -50,6 +50,7 @@ Para maiores informações acessar o site do [EPM](https://www.elipse.com.br/pro
         O SQL Server permite a autenticação tanto como usuário do Windows como o Modo Misto (autenticação do próprio SQL). Como o EPM irá rodar como Serviço é recomendado a opção **Modo Misto** que criará uma autenticação do usuário System Autentication (SA) do SQL que necessita a criação de uma senha.
 
    ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/sql-server.jpg)
+   
    7. Consentimento para instalar o Microsoft R Open
    8. Consetimento para instalar o Python
    9. Processo da instação
