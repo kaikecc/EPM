@@ -59,11 +59,19 @@ Para maiores informações acessar o site do [EPM](https://www.elipse.com.br/pro
 
    1. Database Server 
     
-    Na Figura abaixo mostra a tela de configuração da instância de conexão ao SQL Server. No campo **Server** deve escolher a mesma utilizada na instalação do SQL Server, como geralmente é instalada no mesmo servidor do SQL utiliza-se .\SQLExpress conforme a etapa anterior do SQL Server.
+    Na Figura abaixo mostra a tela de configuração da instância de conexão ao SQL Server. No campo **Server** deve escolher o mesmo nome utilizado na instalação do SQL Server, como geralmente é instalada no mesmo servidor do SQL utiliza-se .\SQLExpress conforme a etapa anterior do SQL Server.
 
     ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-01.png)
 
    2. Database Server Configuration
+
+    Na primeira instalação do EPM Server o CLR deve está DESATIVADO, portanto deve-se escolher a primeira opção conforme a Figura abaixo **Enable CLR and restart SQL Server**:
+
+    ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-02.png)
+
+    3. Configuration Type
+
+    ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-03.png)
 
 3. EPM Interface Server (para cada fonte de dados);
 4. EPM Studio (máquina de gestão do sistema);
