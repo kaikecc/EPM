@@ -33,11 +33,15 @@ O EPM Studio (3) é a ferramenta para configuração do sistema EPM e também pa
       Único recurso obrigatório é o Serviços de Mecanismo de Banco de Dados.
    3. Regras de Recurso
    4. Configuração da Instância
+      
       Instância nomeada: SQLExpress (DESDE QUE NÃO HAJA NENHUMA INSTÂNCIA )
+      
    5. Configuração do Servidor
+     
       Habilitar o SQL Server Browser para na configuração do EPM Server seja visto o nome do Server.
 
    6. Configuração do Mecanismo de Banco de Dados
+        
         O SQL Server permite a autenticação tanto como usuário do Windows como o Modo Misto como autenticação do próprio SQL. Como o EPM irá rodar como Serviço.
 
    ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/sql-server.jpg)
