@@ -67,11 +67,26 @@ Para maiores informações acessar o site do [EPM](https://www.elipse.com.br/pro
 
     Na primeira instalação do EPM Server o CLR deve está DESATIVADO, portanto deve-se escolher a primeira opção conforme a Figura abaixo **Enable CLR and restart SQL Server**:
 
+    
+   3. Configuration Type
+
+    Existem 4 opções desde a **Create and one a new database** a **Restore and upgrade an existing database**.
+
     ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-02.png)
 
-    3. Configuration Type
+   4. Create a New Database
+
+    Caso a opção seja a criação de uma nova base de dados é importante colocar um nome diferente de uma base existente para não sobrepor os dados.
 
     ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-03.png)
+
+   5. Database Configuration
+
+    ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-04.png)
+
+
+
+
 
 3. EPM Interface Server (para cada fonte de dados);
 4. EPM Studio (máquina de gestão do sistema);
