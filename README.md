@@ -82,6 +82,13 @@ Para maiores informações acessar o site do [EPM](https://www.elipse.com.br/pro
 
    5. Database Configuration
 
+    No campo **Database Path** é o caminho de configuração do arquivo da base de dados onde guarda o arquivo .mdf . 
+
+    No campo **Log Files Path** é onde guarda os logs do sistema SQL Server.
+
+    Na opção **Recovery Model**, toda ação executada na base de dados é guardado no arquivo de log, então o modo de recuperação SIMPLE implica que quando não houver atualização pedente é apagado após a conclusão, já no modo FULL todas as transações são mantidas no log e não serão apagadas, somente quando quando haver o backup da base de dados. Por fim, na opção BULK-LOGGED é registrado um conjuntos de transações no log.
+
+
     ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-04.png)
 
 
