@@ -28,6 +28,20 @@ O EPM Studio (3) é a ferramenta para configuração do sistema EPM e também pa
    
    O SQL Server 2019 Express é uma edição gratuita do SQL Server, ideal para desenvolvimento e produção de aplicações de área de trabalho, Web e pequenos servidores.
 
+   1. Instalar Regras
+   2. Seleção de Recursos   
+      Único recurso obrigatório é o Serviços de Mecanismo de Banco de Dados.
+   3. Regras de Recurso
+   4. Configuração da Instância
+      Instância nomeada: SQLExpress (DESDE QUE NÃO HAJA NENHUMA INSTÂNCIA )
+   5. Configuração do Servidor
+      Habilitar o SQL Server Browser para na configuração do EPM Server seja visto o nome do Server.
+
+   6. Configuração do Mecanismo de Banco de Dados
+        O SQL Server permite a autenticação tanto como usuário do Windows como o Modo Misto como autenticação do próprio SQL. Como o EPM irá rodar como Serviço.
+
+   ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/sql-server.jpg)
+
 2. EPM Server;
 3. EPM Interface Server (para cada fonte de dados);
 4. EPM Studio (máquina de gestão do sistema);
