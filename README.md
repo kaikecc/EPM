@@ -24,7 +24,10 @@ O EPM Studio (3) é a ferramenta para configuração do sistema EPM e também pa
 
 ### Ordem de Instação das ferramentas EPM
 
-1. SQL Server;
+1. [SQL Server](https://go.microsoft.com/fwlink/?linkid=866658);
+   
+   O SQL Server 2019 Express é uma edição gratuita do SQL Server, ideal para desenvolvimento e produção de aplicações de área de trabalho, Web e pequenos servidores.
+
 2. EPM Server;
 3. EPM Interface Server (para cada fonte de dados);
 4. EPM Studio (máquina de gestão do sistema);
