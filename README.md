@@ -91,6 +91,12 @@ Para maiores informações acessar o site do [EPM](https://www.elipse.com.br/pro
 
     ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-04.png)
 
+   6. Administrator Configuration 
+
+      É um usuário SA diferente do SQL Server utilizado para acessar as permissões do EPM Server. 
+
+      ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-05.png)  
+
 
 
 
