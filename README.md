@@ -104,7 +104,11 @@ Para maiores informações acessar o site do [EPM](https://www.elipse.com.br/pro
 
 3. EPM Interface Server (para cada fonte de dados);
 
-    O EPM Interface Server deve ser instalado na mesmo servidor da fonte do dado. Porém, o mesmo servidor pode ter várias fontes e bases de dados. O Interface Server pode transmitir os dados para mais de um EPM Server para isso pode-se criar vários **Interface Agent** que reporta-se a cada Server.
+    O EPM Interface Server deve ser instalado na mesmo servidor da fonte do dado. Porém, o mesmo servidor pode ter várias fontes e bases de dados. O Interface Server pode transmitir os dados para mais de um EPM Server para isso pode-se criar vários **Interface Agent** que reporta-se a cada Server. Para isso, é necessário que para cada EPM Server seja iniciada o EPM Interface Server Wizard.
+
+    Na Figura abaixo mostra o processo de criação uma Interface Agent colocando as credencias do EPM Server em questão.
+
+    ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/epm-server-06.png)
 
 4. EPM Studio (máquina de gestão do sistema);
    
