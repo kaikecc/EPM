@@ -22,29 +22,36 @@ Na Figura abaixo mostra duas opções de configurações do fluxo de dados do In
 
 O EPM Studio (3) é a ferramenta para configuração do sistema EPM e também para visualização e análise dos dados e o EPM Add-in (3) é uma extensão para o Excel para fazer a consulta e visualização dos dados para ser tratado. O EPM Portal (3) é uma ferramenta para visualização dos dados em dashboards, além de outros como o Elipse Mobile Server e E3 Viewer.
 
-### Ordem de Instação das ferramentas EPM
+### Ordem de Instalação das ferramentas do sistema EPM
 
 1. [SQL Server](https://go.microsoft.com/fwlink/?linkid=866658);
+   
    
    O SQL Server 2019 Express é uma edição gratuita do SQL Server, ideal para desenvolvimento e produção de aplicações de área de trabalho, Web e pequenos servidores.
 
    1. Instalar Regras
-   2. Seleção de Recursos   
+   2. Seleção de Recursos 
+     
       Único recurso obrigatório é o Serviços de Mecanismo de Banco de Dados.
+
    3. Regras de Recurso
    4. Configuração da Instância
       
-      Instância nomeada: SQLExpress (DESDE QUE NÃO HAJA NENHUMA INSTÂNCIA )
-      
+      **Instância nomeada:** SQLExpress (DESDE QUE NÃO HAJA NENHUMA INSTÂNCIA COM MESMO NOME)
+
    5. Configuração do Servidor
      
       Habilitar o SQL Server Browser para na configuração do EPM Server seja visto o nome do Server.
 
    6. Configuração do Mecanismo de Banco de Dados
         
-        O SQL Server permite a autenticação tanto como usuário do Windows como o Modo Misto como autenticação do próprio SQL. Como o EPM irá rodar como Serviço.
+        O SQL Server permite a autenticação tanto como usuário do Windows como o Modo Misto (autenticação do próprio SQL). Como o EPM irá rodar como Serviço é recomendado a opção **Modo Misto** que criará uma autenticação do usuário System Autentication (SA) do SQL que necessita a criação de uma senha.
 
    ![alt-text](https://github.com/kaikecc/EPM/blob/main/img/sql-server.jpg)
+   7. Consentimento para instalar o Microsoft R Open
+   8. Consetimento para instalar o Python
+   9. Processo da instação
+   10. Concluída
 
 2. EPM Server;
 3. EPM Interface Server (para cada fonte de dados);
