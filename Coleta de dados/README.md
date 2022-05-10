@@ -7,4 +7,25 @@
 
 Fonte: [OPC Data Access](https://en.wikipedia.org/wiki/OPC_Data_Access)
 
+1. Timestamp:
+
+2. Redundancy Options:
+
+* Local OPC Server: opcda://localhost/Nome.OPC/{id}
+* Subscription: Recebe valores somente quando há alterações na variável. O E3 trabalha com essa opção. É sempre recomendado utilizar essa opção, caso exista limitação do OPC DA devida a versão, então utilizar o polling.
+* Read (polling): Independente da mudança na variável, é carregado um novo valor quando ocorre a varredura no **Publishing Interval**.
+
+## Interface de Comunicação OPC-UA
+
+
+> Um padrão de interoperabilidade para a troca de dados segura e confiável no espaço de automação industrial e em outras indústrias. É uma plataforma independente que garante o fluxo de informação contínuo entre os dispositivos de diversos fornecedores.
+
+Fonte: [OPC UA](https://www.logiquesistemas.com.br/blog/opc-ua/)
+
+Para criar uma nova conexão com um servidor OPC UA, basta clicar no botão Edit.
+
+
+
+
+
 
