@@ -24,6 +24,8 @@ Fonte: [OPC Data Access](https://en.wikipedia.org/wiki/OPC_Data_Access)
 
 Fonte: [OPC UA](https://www.logiquesistemas.com.br/blog/opc-ua/)
 
+O OPC-UA tem vantagem por comunicação sempre através de Subsciption.
+
 Para criar uma nova conexão com um servidor OPC UA, basta clicar no botão Edit.
 
 ![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/opc-ua.png)
@@ -35,6 +37,8 @@ Em seguida, clicar em Custom Discovery, a porta é a mesma que o EPM utiliza.
 * Escolher a maneira de comunicar: None
 * Colocar as credenciais de acesso e realizar o Test Connection.
 
+* Operation Timeout (ms): Defini um tempo limite em millisegundos de aguardo.
+* Session Timeout (ns): Defini o tempo máximo de duração de uma sessão ociosa.
 
 
 
