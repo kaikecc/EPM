@@ -15,6 +15,8 @@ Fonte: [OPC Data Access](https://en.wikipedia.org/wiki/OPC_Data_Access)
 * Subscription: Recebe valores somente quando há alterações na variável. O E3 trabalha com essa opção. É sempre recomendado utilizar essa opção, caso exista limitação do OPC DA devida a versão, então utilizar o polling.
 * Read (polling): Independente da mudança na variável, é carregado um novo valor quando ocorre a varredura no **Publishing Interval**.
 
+![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/opc-da.png)
+
 ## Interface de Comunicação OPC-UA
 
 
@@ -23,6 +25,16 @@ Fonte: [OPC Data Access](https://en.wikipedia.org/wiki/OPC_Data_Access)
 Fonte: [OPC UA](https://www.logiquesistemas.com.br/blog/opc-ua/)
 
 Para criar uma nova conexão com um servidor OPC UA, basta clicar no botão Edit.
+
+![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/opc-ua.png)
+
+
+Em seguida, clicar em Custom Discovery, a porta é a mesma que o EPM utiliza.
+
+* Discovery Server URL: opc:tcp://endereco:porta
+* Escolher a maneira de comunicar: None
+* Colocar as credenciais de acesso e realizar o Test Connection.
+
 
 
 
