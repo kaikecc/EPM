@@ -64,6 +64,8 @@ Clique em Edit para abrir a janela de configuração. As opções desta janela s
 
 ![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/mqtt-broker.png)
 
+No [epmmanual](https://github.com/kaikecc/EPM/blob/main/manual/epmmanual_ptb.pdf) p. 70, apresenta uma tabela **Configurações do Broker** onde mostra a descrição dos itens da Figura acima.
+
 
 
 
