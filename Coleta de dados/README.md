@@ -81,7 +81,7 @@ Em seguida, realizar um insert onde criará queries que serão executadas no Bro
 Para isso, siga os passos a seguir:
 
 1. Se você não possui o SQL Server Management Studio instalado, faça a instalação através do
-arquivo [SSMS-Setup-PTB](https://aka.ms/ssmsfullsetup).
+link [SSMS-Setup-PTB](https://aka.ms/ssmsfullsetup).
 
 2. Abra o SQL Server Management Studio e faça a autenticação com seu usuário e senha.
 3. Execute o login no SQL Server Management Studio.
