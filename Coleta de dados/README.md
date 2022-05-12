@@ -66,6 +66,15 @@ Clique em Edit para abrir a janela de configuração. As opções desta janela s
 
 No [epmmanual](https://github.com/kaikecc/EPM/blob/main/manual/epmmanual_ptb.pdf) p. 70, apresenta uma tabela **Configurações do Broker** onde mostra a descrição dos itens da Figura acima.
 
+Para o funcionamento do MQTT com o EPM é preciso formatar os dados. Todo dado no EPM possui:
+
+* Timestamp (momento em que o dado foi gerado);
+* Qualidade;
+* Valor.
+
+
+
+
 
 
 
