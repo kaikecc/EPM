@@ -46,7 +46,15 @@ Em seguida, clicar em Custom Discovery, a porta é a mesma que o EPM utiliza.
 
 Fonte: [MQTT](https://mqtt.org/)
 
+> A Interface de Comunicação MQTT permite a coleta de dados de qualquer dispositivo que opera com o protocolo
+MQTT ao se conectar a um Broker, tipicamente um dispositivo de Internet das Coisas (IoT) ou Internet das Coisas da
+Indústria (IIoT).
+
+Fonte: [epmmanual](https://github.com/kaikecc/EPM/blob/main/manual/epmmanual_ptb.pdf)
+
 Para a integração do protocolo do MQTT com a interface Elipse é necessário 
+
+
 
 ![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/mqtt-broker.png)
 
