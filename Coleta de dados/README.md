@@ -40,6 +40,16 @@ Em seguida, clicar em Custom Discovery, a porta é a mesma que o EPM utiliza.
 * Operation Timeout (ms): Defini um tempo limite em millisegundos de aguardo.
 * Session Timeout (ns): Defini o tempo máximo de duração de uma sessão ociosa.
 
+## MQTT
+
+> O MQTT é um protocolo de mensagens padrão OASIS para a Internet das Coisas (IoT). Ele foi projetado como um transporte de mensagens de publicação/assinatura extremamente leve, ideal para conectar dispositivos remotos com um pequeno espaço de código e largura de banda de rede mínima.
+
+Fonte: [MQTT](https://mqtt.org/)
+
+Para a integração do protocolo do MQTT com a interface Elipse é necessário 
+
+
+
 
 
 
