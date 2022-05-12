@@ -69,8 +69,10 @@ No [epmmanual](https://github.com/kaikecc/EPM/blob/main/manual/epmmanual_ptb.pdf
 Para o funcionamento do MQTT com o EPM é preciso formatar os dados. Todo dado no EPM possui:
 
 * Timestamp (momento em que o dado foi gerado);
-* Qualidade;
+* Qualidade (definido pela padronização da norma OPC UA);
 * Valor.
+
+Em seguida, realizar um insert onde criará queries que serão executadas no Broker para solicitar os dados para o EPM.
 
 
 
