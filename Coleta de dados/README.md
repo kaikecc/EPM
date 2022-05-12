@@ -44,6 +44,8 @@ Em seguida, clicar em Custom Discovery, a porta é a mesma que o EPM utiliza.
 
 > O MQTT é um protocolo de mensagens padrão OASIS para a Internet das Coisas (IoT). Ele foi projetado como um transporte de mensagens de publicação/assinatura extremamente leve, ideal para conectar dispositivos remotos com um pequeno espaço de código e largura de banda de rede mínima.
 
+![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/mqtt-publish-subscribe.png)
+
 Fonte: [MQTT](https://mqtt.org/)
 
 > A Interface de Comunicação MQTT permite a coleta de dados de qualquer dispositivo que opera com o protocolo
