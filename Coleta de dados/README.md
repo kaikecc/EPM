@@ -48,6 +48,8 @@ Fonte: [MQTT](https://mqtt.org/)
 
 Para a integração do protocolo do MQTT com a interface Elipse é necessário 
 
+![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/mqtt-broker.png)
+
 
 
 
