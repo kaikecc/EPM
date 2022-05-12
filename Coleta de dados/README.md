@@ -1,5 +1,21 @@
 # Coleta de dados
 
+## Interface de Comunicação E3
+
+A seguir mostra as opções gerais para todas as interfaces.
+
+1. Timestamp: É o tempo em que o dado foi gerado. Porém, pode escolher o Interface Server Machine Clock.
+2. Enable Storage: Os dados coletados por meio dessa interface de comunicação poderão ser gravados pelo EPM.
+3. Redundancy Options: Permite que uma interface possa ser tratada por mais de um interface server. Os interfaces server podem estar em diferentes servidores podendo selecionar o Primário e Secundário quando for **Activate** e de acordo com Failover trigger. **RECOMENDAÇÃO:** Criar uma tag watchdog no E3 para ficar sendo monitorada.
+
+
+No caso da comunicação do E3:
+
+* Read-Only: Compatibilidade dos produtos Elipse em que habilitação desse item otimiza a comunicação.
+* Browse Properties: Escolhe as propriedades de interesse para serem enviados.
+* Disable queue's auto adjustment: Sinaliza ao operador que a tag está em alteração como colocar a TAG em vermelho por exemplo.
+
+
 
 ## Interface de Comunicação OPC-DA
 
@@ -9,9 +25,6 @@ Fonte: [OPC Data Access](https://en.wikipedia.org/wiki/OPC_Data_Access)
 
 A seguir mostra as opções de configuração da interface OPC DA.
 
-1. Timestamp: É o tempo em que o dado foi gerado. Porém, pode escolher o Interface Server Machine Clock.
-2. Enable Storage: Os dados coletados por meio dessa interface de comunicação poderão ser gravados pelo EPM.
-3. Redundancy Options: Permite que uma interface possa ser tratada por mais de um interface server. Os interfaces server podem estar em diferentes servidores podendo selecionar o Primário e Secundário quando for **Activate** e de acordo com Failover trigger.
 
 * Local OPC Server: opcda://localhost/Nome.OPC/{id}
 * Subscription: Recebe valores somente quando há alterações na variável. O E3 trabalha com essa opção. É sempre recomendado utilizar essa opção, caso exista limitação do OPC DA devida a versão, então utilizar o polling.
