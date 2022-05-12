@@ -106,6 +106,13 @@ Database.
 6. Clique em OK para iniciar a restauração da base de dados.
 7. Após executar a operação com sucesso, feche o SQL Server Management Studio.
 
+## Redudância de Interfaces
+
+1. Após criar um servidor para ser a redundância do servidor primário, clique na opção **Redundancy Options**. OBS: no servidor secundário foi instalado um novo interface server.
+
+2. Insira o segundo interface server;
+3. Na aplicação do E3 foi criada uma tag de monitoramento de conexão que verifica o relógio da máquina e é atualizada a cada  1 segundo.
+
 
 
 
