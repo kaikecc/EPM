@@ -112,6 +112,8 @@ Database.
 
 2. Insira o segundo interface server;
 3. Na aplicação do E3 foi criada uma tag de monitoramento de conexão que verifica o relógio da máquina e é atualizada a cada  1 segundo.
+4. Existem três maneiras de fazer a troca de interfaces server: manual, monitor interface server connection e monitor watchdog tag. Nesse caso, é indicado usar o watchdog tag.
+5. Selecione as opções Assume if Bad quality, Assume if no value change e defina uma Latency.
 
 
 
