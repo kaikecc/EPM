@@ -52,8 +52,12 @@ Indústria (IIoT).
 
 Fonte: [epmmanual](https://github.com/kaikecc/EPM/blob/main/manual/epmmanual_ptb.pdf)
 
-Para a integração do protocolo do MQTT com a interface Elipse é necessário 
+Para a integração do protocolo do MQTT com a interface Elipse é necessário configurar uma conexão com Broker e definir o formato da
+estampa de tempo e da qualidade, criar as consultas de tópicos e criar o mapeamento entre as inscrições nos tópicos
+e endereços desta Interface de Comunicação, que podem ser posteriormente utilizados pelas Basic Variables na
+Configuração de Fonte de Dados.
 
+Clique em Edit para abrir a janela de configuração. As opções desta janela são mostradas na figura a seguir.
 
 
 ![alt-text](https://github.com/kaikecc/EPM/blob/main/Coleta%20de%20dados/img/mqtt-broker.png)
