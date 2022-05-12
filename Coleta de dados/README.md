@@ -74,6 +74,23 @@ Para o funcionamento do MQTT com o EPM é preciso formatar os dados. Todo dado n
 
 Em seguida, realizar um insert onde criará queries que serão executadas no Broker para solicitar os dados para o EPM.
 
+# Interface de Comunicação Database
+
+# Restauração da base de dados E3
+
+Para isso, siga os passos a seguir:
+
+1. Se você não possui o SQL Server Management Studio instalado, faça a instalação através do
+arquivo [SSMS-Setup-PTB](https://aka.ms/ssmsfullsetup).
+
+2. Abra o SQL Server Management Studio e faça a autenticação com seu usuário e senha.
+3. Execute o login no SQL Server Management Studio.
+4. Clique com o botão direito do mouse no item Databases e selecione a opção Restore
+Database.
+5. No item Source, selecione a opção Device e localize o arquivo de backup.
+6. Clique em OK para iniciar a restauração da base de dados.
+7. Após executar a operação com sucesso, feche o SQL Server Management Studio.
+
 
 
 
