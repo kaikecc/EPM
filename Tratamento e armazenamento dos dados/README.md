@@ -8,7 +8,7 @@ Há duas formas de inserção de variávies: clicando no **Add** ou no **Import*
 
 * Name: não necessariamente tem que ser igual ao da fonte de dados, mas um nome que melhor indetifica essa variável na base de dados do EPM.
 * Description: Descrição da variável.
-* EU: Unidade de Engenharia.
+* EU (Enginneering Unit): Unidade de Engenharia.
 * Data Type: Tipo de dado do valor que última leitura trouxe.
 * Active: Faz com que receba atualização dessa variável.
 * RT: Tempo Real.
@@ -21,6 +21,12 @@ Na Figura abaixa mostra as propriedades da variável.
 
 * Domain: Continuos - representa a medida que a variável irá retornar para casos analógicos. Discrete - representa a medida booleana da variável 0 ou 1.
 * Cast Type: Como se deseja tratar o valor recebido dessa variável.
+* Enable Realtime: Caso necessite que a variável chegue ao EPM no tempo real (Não é aconselhado deixar habilidade sem a necessidade).
+* Clamping: Como deve tratar o **Low Limit** e **High Limit** None - Não faz nada com os valores fora dos limites, Discard - Exclui os valores fora dos limites e Clamp Range - Coloca os valores que utrapassarem dentro do limite.
+
+Na aba de **Processing**, pode-se configurar a escala original dos dados de Input Low Limit e Input High Limit independente do **Clamping**. Pode-se configurar o **Dead Band**
+
+Na aba de **IO Data** mostra de qual fonte de dados está vindo essa variável.
 
 ![alt-text](https://github.com/kaikecc/EPM/blob/main/Tratamento%20e%20armazenamento%20dos%20dados/img/basic-edit.png)
 
