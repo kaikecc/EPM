@@ -78,9 +78,15 @@ Storage Set seja atribuído.
 tempo consome mais espaço em disco. Portanto, se não é necessária esta precisão,
 recomenda-se desmarcá-la.
 
-# Eventos
+## Eventos
 
 1. Schedule: Dispara um evento dentro de um momento programado (horário do servidor UTC).
 2. Period: Dispara eventos ciclícos.
 3. Advanced: Dispara de acordo com uma fonte, uma variável. Ocorre de acordo com a condição em Filter.
 4. AckEvents: Mesma funcionalidade do Advanced, porém pode-se selecionado o evento ocorrido no Monitor pode reconhecer o evento adicionando um comentário.
+
+## Expression Variables
+
+Serve para criar cálculos de indicadores, KPIs
+
+
