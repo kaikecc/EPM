@@ -10,12 +10,17 @@ Há duas formas de inserção de variávies: clicando no **Add** ou no **Import*
 * Description: Descrição da variável.
 * EU: Unidade de Engenharia.
 * Data Type: Tipo de dado do valor que última leitura trouxe.
-* Active: 
+* Active: Faz com que receba atualização dessa variável.
 * RT: Tempo Real.
 * REC: Gravação.
 * Compression: Compressão dos dados.
-* RT-Value:
-* RT-Timestamp:
+* RT-Value: Valor em Tempo Real (Caso a variável esteja habilitada para RT).
+* RT-Timestamp: Tempo Real do Timestamp.
+
+Na Figura abaixa mostra as propriedades da variável.
+
+* Domain: Continuos - representa a medida que a variável irá retornar para casos analógicos. Discrete - representa a medida booleana da variável 0 ou 1.
+* Cast Type: Como se deseja tratar o valor recebido dessa variável.
 
 ![alt-text](https://github.com/kaikecc/EPM/blob/main/Tratamento%20e%20armazenamento%20dos%20dados/img/basic-edit.png)
 
