@@ -34,3 +34,15 @@ Na aba de **IO Data** mostra de qual fonte de dados está vindo essa variável.
 
 Na aba de **Storage** cuida do armazenamento da variável. Onde o **Record** habilita a gravação que é útil para visualização em gráfico e consulta via API dessa variável.
 
+**NOTAS**:
+
+Todas as alterações efetuadas nas abas de propriedades, seja para qual item for, só
+são efetivamente utilizadas pelo Sistema EPM quando salvas. A operação de
+salvamento do conteúdo editado consiste em enviar ao EPM Server as novas
+informações, tornando-as disponíveis para todo o sistema.
+• Os Tags que não estiverem vinculados a uma fonte de dados são apresentados na
+tabela com a cor do texto em vermelho.
+• A coluna RT-Timestamp, que mostra a estampa de tempo do último valor recebido
+pela via de tempo real, possui o formato Ano-Mês-DiaTHora:Minuto:Segundo. Este
+formato é utilizado pois suporta ordenação, ou seja, é uma coluna do tipo Sortable.
+
