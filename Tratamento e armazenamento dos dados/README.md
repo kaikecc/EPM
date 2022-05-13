@@ -36,13 +36,34 @@ Na aba de **Storage** cuida do armazenamento da variável. Onde o **Record** hab
 
 **NOTAS**:
 
-Todas as alterações efetuadas nas abas de propriedades, seja para qual item for, só
+* Todas as alterações efetuadas nas abas de propriedades, seja para qual item for, só
 são efetivamente utilizadas pelo Sistema EPM quando salvas. A operação de
 salvamento do conteúdo editado consiste em enviar ao EPM Server as novas
 informações, tornando-as disponíveis para todo o sistema.
-• Os Tags que não estiverem vinculados a uma fonte de dados são apresentados na
+
+* Os Tags que não estiverem vinculados a uma fonte de dados são apresentados na
 tabela com a cor do texto em vermelho.
-• A coluna RT-Timestamp, que mostra a estampa de tempo do último valor recebido
+
+* A coluna RT-Timestamp, que mostra a estampa de tempo do último valor recebido
 pela via de tempo real, possui o formato Ano-Mês-DiaTHora:Minuto:Segundo. Este
 formato é utilizado pois suporta ordenação, ou seja, é uma coluna do tipo Sortable.
+
+* O nome de um Tag deve ser único entre os Data Objects, ou seja, tanto entre as Basic
+Variables quanto nas Expression Variables.
+
+* A configuração correta das propriedades Domain e Cast Type é fundamental na aba
+General.
+
+* A propriedade Domain pode interferir no resultado de consultas processadas,
+portanto configure-a corretamente desde o início.
+
+* Sempre que possível configure a propriedade Cast Type para o tipo de dados mais
+apropriado, pois este interfere diretamente no espaço de armazenamento. Por
+exemplo, um tipo de dados Float ocupa metade do espaço de um tipo de dados
+Double, e o primeiro costuma atender a maioria dos casos. Da mesma forma que um
+tipo de dados Int ocupa apenas o espaço necessário para representar o valor em
+questão.
+
+* Não é recomendável mudar o valor da propriedade Cast Type ao longo da vida de
+uma Basic Variable. Configure-a corretamente desde o início.
 
