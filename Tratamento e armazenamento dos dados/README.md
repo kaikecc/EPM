@@ -24,9 +24,13 @@ Na Figura abaixa mostra as propriedades da variável.
 * Enable Realtime: Caso necessite que a variável chegue ao EPM no tempo real (Não é aconselhado deixar habilidade sem a necessidade).
 * Clamping: Como deve tratar o **Low Limit** e **High Limit** None - Não faz nada com os valores fora dos limites, Discard - Exclui os valores fora dos limites e Clamp Range - Coloca os valores que utrapassarem dentro do limite.
 
+
+
+![alt-text](https://github.com/kaikecc/EPM/blob/main/Tratamento%20e%20armazenamento%20dos%20dados/img/basic-edit.png)
+
 Na aba de **Processing**, pode-se configurar a escala original dos dados de Input Low Limit e Input High Limit independente do **Clamping**. Pode-se configurar o **Dead Band**
 
 Na aba de **IO Data** mostra de qual fonte de dados está vindo essa variável.
 
-![alt-text](https://github.com/kaikecc/EPM/blob/main/Tratamento%20e%20armazenamento%20dos%20dados/img/basic-edit.png)
+Na aba de **Storage** cuida do armazenamento da variável. Onde o **Record** habilita a gravação que é útil para visualização em gráfico e consulta via API dessa variável.
 
