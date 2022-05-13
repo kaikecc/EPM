@@ -87,6 +87,8 @@ recomenda-se desmarcá-la.
 
 ## Expression Variables
 
-Serve para criar cálculos de indicadores, KPIs
+Serve para criar cálculos de indicadores, KPIs dentro EPM baseado nas variáveis que ele está recebendo. Na opção Test é possível avaliar a sintáxe do cálculo que é feito em Python.
+
+Na aba de Execution Trigger pode-se escolher o momento do cálculo, sendo por mudança de alguma variável ou através de um evento.
 
 
