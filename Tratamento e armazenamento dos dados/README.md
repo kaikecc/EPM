@@ -67,3 +67,14 @@ questão.
 * Não é recomendável mudar o valor da propriedade Cast Type ao longo da vida de
 uma Basic Variable. Configure-a corretamente desde o início.
 
+* Em geral, todos os Tags que pertencem a um mesmo tipo de variável de processo
+(temperatura, pressão, vazão, etc.) compartilham um mesmo Storage Set.
+
+* Se um Storage Set em uso por algum Tag é removido, os dados do Tag continuam a
+ser armazenados, porém sem passar pelo algoritmo de compressão, até que um novo
+Storage Set seja atribuído.
+
+* A opção de armazenar os dados com precisão de milissegundos na estampa de
+tempo consome mais espaço em disco. Portanto, se não é necessária esta precisão,
+recomenda-se desmarcá-la.
+
