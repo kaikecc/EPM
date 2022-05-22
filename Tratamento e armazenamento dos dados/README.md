@@ -94,4 +94,6 @@ Serve para criar cálculos de indicadores, KPIs dentro EPM baseado nas variávei
 
 Na aba de Execution Trigger pode-se escolher o momento do cálculo, sendo por mudança de alguma variável ou através de um evento.
 
+## Compressão de dados
 
+O algoritmo que o EPM utiliza para compressão de dados é chamado de BOX CAR BACK SLOPE (BCBS). Tem como objetivo dimunuir espaço em disco de armazenamento e torna a consulta ao dados eficiente.
