@@ -96,4 +96,12 @@ Na aba de Execution Trigger pode-se escolher o momento do cálculo, sendo por mu
 
 ## Compressão de dados
 
-O algoritmo que o EPM utiliza para compressão de dados é chamado de BOX CAR BACK SLOPE (BCBS). Tem como objetivo dimunuir espaço em disco de armazenamento e torna a consulta ao dados eficiente.
+O algoritmo que o EPM utiliza para compressão de dados é chamado de BOX CAR BACK SLOPE (BCBS). Tem como objetivo dimunuir espaço em disco de armazenamento e torna a consulta ao dados eficiente. Cuidado na hora de configurar o valor do Deviation, pois pode acarretar em banda morta muito grande ao ponto de perder o comportamento da variável ou uma banda morta pequena que deixa anular a eficiência do algoritmo de compressão.
+
+## Storageset
+
+É um objeto de configuração do algoritmo BCBS para compressão de dados do EPM. Criando um storageset pode-se utilizar em diversas variáveis. 
+
+* Min. Time: Tempo mínimo que o algoritmo tem para verificar se excedeu o Deviation. (Ex. Quando mede-se uma vazão o ínício da leitura é instável e gravaria muitas vezes o valores até estabilizar, para isso coloca-se um tempo mínimo para executar o algoritmo BCSBS).
+* Max. Time: Tempo máximo que forçaria o algotimo a ser executado. (Ex. Quando passa muito tempo sem armazenar uma variável por está constante, executa-se depois de um tempo máximo a leitura da variável).
+
