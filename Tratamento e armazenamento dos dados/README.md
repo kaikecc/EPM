@@ -106,3 +106,17 @@ O algoritmo que o EPM utiliza para compressão de dados é chamado de BOX CAR BA
 * Max. Time: Tempo máximo que forçaria o algotimo a ser executado. (Ex. Quando passa muito tempo sem armazenar uma variável por está constante, executa-se depois de um tempo máximo a leitura da variável).
 * Slope Resolution: É o tempo que assegura que a representação da variável seja mais próxima da realidade.
 
+## NOTA
+
+* Em geral, todos os Data Objects que pertencem a um mesmo grupo/natureza de variável de processo (temperatura,
+pressão, vazão, torque, etc.) compartilham um mesmo Storageset.
+* Se é removido um Storageset que esteja sendo utilizado por algum Data Object, os dados destes Data Objects
+continuam sendo armazenados, porém sem passarem pelo algoritmo de compressão, até que um novo Storageset
+seja novamente atribuído a eles.
+* Toda alteração efetuada em um Storageset só é efetivamente aplicada no momento em que é salva. Uma vez salva,
+todos os Data Objects que compartilham o mesmo Storageset passam a utilizar as novas configurações.
+* Toda vez que o valor de um Data Object mudar sua qualidade ele é armazenado, mesmo que ainda não tenha
+transcorrido o tempo definido em Min. Time.
+
+
+
