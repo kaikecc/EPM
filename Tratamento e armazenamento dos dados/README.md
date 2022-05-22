@@ -96,7 +96,7 @@ Na aba de Execution Trigger pode-se escolher o momento do cálculo, sendo por mu
 
 ## Compressão de dados
 
-O algoritmo que o EPM utiliza para compressão de dados é chamado de BOX CAR BACK SLOPE ([BCBS](https://kb.elipse.com.br/en/data-compression-algorithms-in-process-historians-with-commercial-databases/). Tem como objetivo dimunuir espaço em disco de armazenamento e torna a consulta ao dados eficiente. Cuidado na hora de configurar o valor do Deviation, pois pode acarretar em banda morta muito grande ao ponto de perder o comportamento da variável ou uma banda morta pequena que deixa anular a eficiência do algoritmo de compressão.
+O algoritmo que o EPM utiliza para compressão de dados é chamado de BOX CAR BACK SLOPE ([BCBS](https://kb.elipse.com.br/en/data-compression-algorithms-in-process-historians-with-commercial-databases/)). Tem como objetivo dimunuir espaço em disco de armazenamento e torna a consulta ao dados eficiente. Cuidado na hora de configurar o valor do Deviation, pois pode acarretar em banda morta muito grande ao ponto de perder o comportamento da variável ou uma banda morta pequena que deixa anular a eficiência do algoritmo de compressão.
 
 ## Storageset
 
