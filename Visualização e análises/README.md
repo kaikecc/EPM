@@ -20,6 +20,10 @@ está habilitado para ter filhos do tipo Compressor nas instâncias.
 8. Adicione a propriedade Temperatura com o tipo Alias.
 9. Adicione a propriedade Localidade com o tipo Simple.
 
+## Chart Analysis
+
+É uma ferramenta do EPM que permite que se visualise os dados em um gráfico com vários recursos que seja possível fazer uma análise exploratório dos dados.
+
 
 
 
