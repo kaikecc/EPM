@@ -32,10 +32,20 @@ Os objetos datasets são conjuntos de dados que pode ser escolhidos para realiza
 
 1. Raw:  São dados brutos (SEM AGREGAÇÃO);
 2. Trend: É tipo de agregação que o ChartAnalysis utiliza para colocar os dados em gráfico;
-3. Interpolative: Permite que fixe um intervalo (Sample Interval) entre cada ponto existente;
-4. Avarage: Média Aritmética Simples;
-5. Time Avarage: Média ponderada no Tempo. (RECOMENDADO).
-6. Duration in State Zero: Tempo que permaneceu em zero dentro do intervalo de amostragem. (UTILIZAR PARA MANUTENÇÃO SOBRE TAL VARIÁVEL)
+3. Interpolative: Retorna os valores interpolados no início de cada intervalo, utilizando para o cálculo
+os valores anteriores e posteriores à estampa de tempo solicitada. Permite que fixe um intervalo (Sample Interval) entre cada ponto existente;
+4. Avarage: Retorna a média aritmética dos dados do intervalo solicitado, considerando apenas
+os valores com qualidade boa.Média Aritmética Simples;
+5. Time Avarage: Retorna a média ponderada pelo tempo em que a variável permaneceu nos valores,
+usando o método Interpolated Bouding Values para calcular os dados nos limites
+do intervalo solicitado. Média ponderada no Tempo. (RECOMENDADO).
+6. Duration in State Zero: Retorna a quantidade de tempo, em milissegundos, em que a variável Booleana ou
+numérica esteve em zero. Tempo que permaneceu em zero dentro do intervalo de amostragem. (UTILIZAR PARA MANUTENÇÃO SOBRE TAL VARIÁVEL)
+7. Time Avarage 2: Retorna a média ponderada pelo tempo em que a variável permaneceu nos valores,
+usando o método Simple Bouding Values para calcular os dados nos limites do
+intervalo solicitado. Melhor opção para variáveis discretas.
+
+Para mais informações consultar o padrão [OPC UA](https://reference.opcfoundation.org/v104/Core/docs/Part13/5.4.3/).
 
 OBS: O Publish Interval é o tempo para aquisição dos dados em Real Time.
 
