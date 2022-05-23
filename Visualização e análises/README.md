@@ -66,7 +66,13 @@ C:/ .
 8. 6. Abra um Dataset Analysis e clique no botão Scripting para carregar o console Python.
 
 
+## EPM Add-in
 
+É um suplemento do EPM para o Excel permitindo uma conexão do EPM Server fazendo uma consulta dos dados e traz para uma planilha no Excel. 
+
+> O EPM Add-in para o Microsoft Excel é uma ferramenta integrada no ambiente do Excel que possibilita a conexão e a consulta de dados históricos do EPM Server para a utilização na planilha, para o desenvolvimento de relatórios, gráficos, análises, etc. O EPM Add-in para o Microsoft Excel é uma ferramenta integrada no ambiente do Excel que possibilita a conexão e a consulta de dados históricos do EPM Server para a utilização na planilha, para o desenvolvimento de relatórios, gráficos, análises, etc.
+
+Fonte: [EPM Add-in](https://kb.elipse.com.br/kb54450-epm-addin-para-o-microsoft-excel/).
 
 
 
