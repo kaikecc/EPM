@@ -16,7 +16,7 @@ Em **Product Key Information** pode-se verificar versão atual do EPM Server, qu
 Um recursos útil para gestão do EPM Server são as notificações que podem ser enviadas automaticamente por e-mail sempre que ocorre algum evento. Primeiramente,
 na aba **E-mail Configuration**, deve-se adicionar um e-mail padrão que o EPM Server utilizará para notificação, no entanto é necessário configurar um Server Address SMTP para isso.
 
-Em seguida, na aba **Notifications** é onde configurar quais ocasiões serão enviados os e-mails.
+Em seguida, na aba **Notifications** é onde configurar quais ocasiões serão enviados os e-mails. Os usuários que receberão as notificações devem ter os seus e-mails cadastros em **UserAdministration**. Ao criar uma NewNotification, selecione a aba **Filter** onde se define uma propriedade que deseja acompanhar.
 
 ## Fazer backup do EPM
 
