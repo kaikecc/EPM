@@ -55,7 +55,14 @@ Permite o desenvolvimento dentro do ambiente Dataset de scripts que auxilie o us
 
 ## Instalação do Python
 
-Recomenda-se utilizar sempre as distribuições oficiais do [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe). Os iniciar a instalação deve-se optar pela **Customize installation** deixando todas as Optional Features selecionadas. Em Advanced Options escolher: Install for all users e Add Python to environment variables e instalar no disco C: .
+1. Recomenda-se utilizar sempre as distribuições oficiais do [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe). Os iniciar a instalação deve-se optar pela **Customize installation** deixando todas as Optional Features selecionadas. Em Advanced Options escolher: Install for all users e Add Python to environment variables e instalar no disco C: .
+
+2. Em seguida instalar a biblioteca do python Numpy: pip install numpy==1.19.3 .
+
+3. Por fim, abrir o EPM Studio.
+
+
+
 
 
 
