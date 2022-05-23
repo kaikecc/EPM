@@ -11,6 +11,13 @@ O sistema EPM funciona todo baseado no SQL Server e através do EPM Studio é po
 
 Em **Product Key Information** pode-se verificar versão atual do EPM Server, quantidade de I/Os Points ativas e registradas, as interfaces de comunicação disponíveis para uso, quantidade de sessões e do EPM Portal.
 
+## Notificações do EPM Server
+
+Um recursos útil para gestão do EPM Server são as notificações que podem ser enviadas automaticamente por e-mail sempre que ocorre algum evento. Primeiramente,
+na aba **E-mail Configuration**, deve-se adicionar um e-mail padrão que o EPM Server utilizará para notificação, no entanto é necessário configurar um Server Address SMTP para isso.
+
+Em seguida, na aba **Notifications** é onde configurar quais ocasiões serão enviados os e-mails.
+
 ## Fazer backup do EPM
 
 > Para garantir a disponibilidade do Sistema EPM, este fornece uma estrutura de cópias de
