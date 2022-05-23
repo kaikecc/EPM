@@ -49,7 +49,13 @@ Para mais informações consultar o padrão [OPC UA](https://reference.opcfounda
 
 OBS: O Publish Interval é o tempo para aquisição dos dados em Real Time.
 
+## Dataset Analysis - Integração com Python
 
+Permite o desenvolvimento dentro do ambiente Dataset de scripts que auxilie o usuário na visualização dos dados. Os script ficam armazenado em Documentos/Elipse Software/EPM Studio/Datasets.
+
+## Instalação do Python
+
+Recomenda-se utilizar sempre as distribuições oficiais do [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe). Os iniciar a instalação deve-se optar pela **Customize installation** deixando todas as Optional Features selecionadas. Em Advanced Options escolher: Install for all users e Add Python to environment variables e instalar no disco C: .
 
 
 
