@@ -55,11 +55,15 @@ Permite o desenvolvimento dentro do ambiente Dataset de scripts que auxilie o us
 
 ## Instalação do Python
 
-1. Recomenda-se utilizar sempre as distribuições oficiais do [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe). Os iniciar a instalação deve-se optar pela **Customize installation** deixando todas as Optional Features selecionadas. Em Advanced Options escolher: Install for all users e Add Python to environment variables e instalar no disco C: .
-
-2. Em seguida instalar a biblioteca do python Numpy: pip install numpy==1.19.3 .
-
-3. Por fim, abrir o EPM Studio.
+1. Execute o instalador do [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe) baixado como pré-requisito do treinamento. 
+2. Selecione a opção Customize installation.
+3.Selecione as opções Install for all users e Add Python to environment variables.
+4. Altere o campo Customize install location para que a pasta do Python fique diretamente em
+C:/ .
+5. Prossiga até o final da instalação.
+6. Abra o cmd e digite pip install numpy.
+7. Abra o EPM Studio. Ir em Options e verificar se a versão do python está selecionada.
+8. 6. Abra um Dataset Analysis e clique no botão Scripting para carregar o console Python.
 
 
 
