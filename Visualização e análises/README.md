@@ -6,7 +6,7 @@ Permite criar uma hieraquia de pastas para organizar as variáveis. Pode-se carr
 
 ## EPM Model
 
-Em Custom Types é onde cria-se as definições de objetos que existirá no EPM Model.
+Em Custom Types é onde se cria as definições de objetos que existirá no EPM Model.
 
 1. Clique com o botão direito do mouse em CustomTypes e selecione o item Edit Items..
 2. Clique em Add Type e crie o tipo Compressor, selecionando a imagem compressor.png
