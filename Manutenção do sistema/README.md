@@ -2,6 +2,15 @@
 
 O sistema EPM funciona todo baseado no SQL Server e através do EPM Studio é possui acessar todos os recursos necessários para manutenção do EPM Server. Na aba **Management**, em seguida **Properties** pode-se verificar o funcionamento das configurações do Database do EPM.
 
+* Server Name;
+* Status;
+* EPM System;
+* Log File;
+* Recovery Model;
+* Size.
+
+Em **Product Key Information** pode-se verificar versão atual do EPM Server, quantidade de I/Os Points ativas e registradas, as interfaces de comunicação disponíveis para uso, quantidade de sessões e do EPM Portal.
+
 ## Fazer backup do EPM
 
 > Para garantir a disponibilidade do Sistema EPM, este fornece uma estrutura de cópias de
