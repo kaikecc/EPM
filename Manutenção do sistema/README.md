@@ -18,7 +18,7 @@ na aba **E-mail Configuration**, deve-se adicionar um e-mail padrão que o EPM S
 
 Em seguida, na aba **Notifications** é onde configurar quais ocasiões serão enviados os e-mails. Os usuários que receberão as notificações devem ter os seus e-mails cadastros em **UserAdministration**. Ao criar uma NewNotification, selecione a aba **Filter** onde se define uma propriedade que deseja acompanhar.
 
-## Fazer backup do EPM
+## EPM Server - Backup
 
 > Para garantir a disponibilidade do Sistema EPM, este fornece uma estrutura de cópias de
 segurança, que podem ser utilizadas nos casos de problemas onde ocorreu perda de
@@ -58,3 +58,21 @@ EPM Server estiver usando para conexão com o banco é o usuário SA do SQL Serv
 ou algum outro com permissões de SysAdmin. Por uma questão de segurança, o SQL
 Server não permite que seja realizada a varredura no sistema de arquivos da máquina
 sem as condições citadas.
+
+## EPM Server - Archives
+
+O EPM guarda os dados em um sistema de arquivos. Em **Explorer**, em seguida selecione o item **Archives** e clicando em cima com botão direito do mouse escolha **Properties** que mostra as propriedades que aparecem no EPM Server Configuration Wizard.
+
+* Base name;
+* Path;
+* Growth;
+* Initial size;
+* Maximum size.
+
+OBS: Pode alterar os parâmentros de configuração, porém recomenda-se acompanhar a ocupação dos valores ao longo do tempo.
+
+Para acompanhar a evolução do crescimento dos dados, clique com o botão direito do mouse em cima de Archives, em seguida selecione **Edit Archives**, que através disso é feita uma leitura do servidor do SQL.
+
+* State: Quando em modo **Current** mostra que o arquivo está sendo utilizado.
+
+Pode-se fechar o arquivo clicando em **Archive**, em seguida **Close** assim o arquivo não receberá nenhum dado.
