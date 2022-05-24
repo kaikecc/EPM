@@ -86,6 +86,10 @@ Procure o ícone EPM Server na barra de tarefa do windows. Em seguida clique com
 
 * Diseble demo mode: Caso o EPM Server pare seu funcionamento por um período de tempo e que por algum motivo ao consertar o problema a chave do EPM fique indisponível ele inicia em modo Demo com apenas 20 pontos ativos. Ao reportar com os interfaces serves o restante dos pontos serão invalidados, portanto é aconselhado SELECIONAR essa opção e então o EPM Server funcionará apenas quando consertado a questão da licença da chave.
 
+Na modo **Advanced Settings** cuida das configurações das sessões, subsciptions e requests.
+
+
+
 
 
 
