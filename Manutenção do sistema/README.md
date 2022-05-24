@@ -75,4 +75,5 @@ Para acompanhar a evolução do crescimento dos dados, clique com o botão direi
 
 * State: Quando em modo **Current** mostra que o arquivo está sendo utilizado.
 
-Pode-se fechar o arquivo clicando em **Archive**, em seguida **Close** assim o arquivo não receberá nenhum dado.
+Pode-se fechar o arquivo clicando em **Archive**, em seguida **Close** assim o arquivo não receberá nenhum dado. Existe a possibilidade de remover o arquivo da base de dados do EPM clicando em **Detach**. Em contrapartida, pode também retornar um arquivo existente clicando em **Attach**.
+
