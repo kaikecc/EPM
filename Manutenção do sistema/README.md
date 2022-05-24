@@ -82,6 +82,9 @@ Pode-se fechar o arquivo clicando em **Archive**, em seguida **Close** assim o a
 Procure o ícone EPM Server na barra de tarefa do windows. Em seguida clique com o botão direito do mouse sobre o ícone e escolha o item Settings.
 
 * Interface server activity timeout (s): É o tempo de atividade do interface server, ou seja é o tempo da comunicação do interface com o EPM Server. Quando um rede de comunicação está sobrecarregada recomenda-se aumentar o tempo de timeout.
+* EPM licence reading timeout (s): Tempo de leitura da chave.
+
+* Diseble demo mode: Caso o EPM Server pare seu funcionamento por um período de tempo e que por algum motivo ao consertar o problema a chave do EPM fique indisponível ele inicia em modo Demo com apenas 20 pontos ativos. Ao reportar com os interfaces serves o restante dos pontos serão invalidados, portanto é aconselhado SELECIONAR essa opção e então o EPM Server funcionará apenas quando consertado a questão da licença da chave.
 
 
 
