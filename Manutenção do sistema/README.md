@@ -77,3 +77,13 @@ Para acompanhar a evolução do crescimento dos dados, clique com o botão direi
 
 Pode-se fechar o arquivo clicando em **Archive**, em seguida **Close** assim o arquivo não receberá nenhum dado. Existe a possibilidade de remover o arquivo da base de dados do EPM clicando em **Detach**. Em contrapartida, pode também retornar um arquivo existente clicando em **Attach**.
 
+## EPM Server - Settings
+
+Procure o ícone EPM Server na barra de tarefa do windows. Em seguida clique com o botão direito do mouse sobre o ícone e escolha o item Settings.
+
+* Interface server activity timeout (s): É o tempo de atividade do interface server, ou seja é o tempo da comunicação do interface com o EPM Server. Quando um rede de comunicação está sobrecarregada recomenda-se aumentar o tempo de timeout.
+
+
+
+
+
