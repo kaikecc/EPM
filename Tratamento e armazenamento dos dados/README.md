@@ -109,6 +109,9 @@ O algoritmo que o EPM utiliza para compressão de dados é chamado de BOX CAR BA
 
 ## NOTAS
 
+* A propriedade Name deve ser única para os Data Objects, ou seja, não pode haver dois Data Objects em um
+EPM Server com o mesmo nome, mesmo que um seja do tipo Basic Variable e outro do tipo Expression
+Variable.
 * Em geral, todos os Data Objects que pertencem a um mesmo grupo/natureza de variável de processo (temperatura,
 pressão, vazão, torque, etc.) compartilham um mesmo Storageset.
 * Se é removido um Storageset que esteja sendo utilizado por algum Data Object, os dados destes Data Objects
